@@ -1,7 +1,7 @@
 # copies required files into folders and then runs docker-compose to startup motoring dev environment
 $ErrorActionPreference = "Stop"
 
-$sourceRepoBase = "https://james-christou-carsales@bitbucket.org/my-account/";
+$sourceRepoBase = "https://my-user@bitbucket.org/my-account/";
 $destRepoBase = "https://github.com/my-account/";
 
 # the list of repos...if the repo name is not changing then you only need to specify the source name
